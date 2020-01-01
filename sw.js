@@ -1,6 +1,6 @@
 
 // Imports
-importScripts('./js/sw-utils.js');
+importScripts('js/sw-utils.js');
 
 /**
  * Caches spaces
@@ -13,15 +13,15 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 
 const APP_SHELL = [
     // '/',
-    '/index.html',
-    '/css/style.css',
-    '/img/favicon.ico',
-    '/img/avatars/hulk.jpg',
-    '/img/avatars/ironman.jpg',
-    '/img/avatars/spiderman.jpg',
-    '/img/avatars/thor.jpg',
-    '/img/avatars/wolverine.jpg',
-    '/js/app.js',
+    'index.html',
+    'css/style.css',
+    'img/favicon.ico',
+    'img/avatars/hulk.jpg',
+    'img/avatars/ironman.jpg',
+    'img/avatars/spiderman.jpg',
+    'img/avatars/thor.jpg',
+    'img/avatars/wolverine.jpg',
+    'js/app.js',
     'js/libs/jquery.js'
 ];
 
@@ -30,7 +30,7 @@ const APP_SHELL_INMUTABLE = [
     'https://fonts.googleapis.com/css?family=Quicksand:300,400',
     'https://fonts.googleapis.com/css?family=Lato:400,300',
     'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
-    '/css/animate.css'
+    'css/animate.css'
 ];
 
 self.addEventListener('install', e => {
