@@ -1,6 +1,6 @@
 
 // Imports
-importScripts('/js/sw-utils.js');
+importScripts('./js/sw-utils.js');
 
 /**
  * Caches spaces
